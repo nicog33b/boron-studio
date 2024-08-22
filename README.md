@@ -1,62 +1,82 @@
-Prueba UI Developer - Boron Studio
-Este proyecto es parte de una prueba técnica para el puesto de UI Developer en Boron Studio. El objetivo es replicar el diseño proporcionado en Figma para versiones Desktop y Mobile utilizando únicamente HTML, CSS y Javascript Vanilla.
+# 🖥️ Prueba UI Developer - Boron Studio
 
-Figma
-Puedes acceder al diseño en Figma aquí.
+Este proyecto es parte de una prueba técnica para el puesto de UI Developer en Boron Studio. El objetivo es replicar el diseño proporcionado en Figma para versiones **Desktop** y **Mobile** utilizando únicamente **HTML, CSS** y **Javascript Vanilla**.
 
-Para trabajar en modo desarrollo, asegúrate de estar logueado y duplicar el archivo a tus drafts.
+---
 
-Objetivo
-Replicar la página en Figma con la mayor exactitud visual posible, tanto en la versión Desktop como Mobile, sin el uso de librerías CSS (como Bootstrap) o frameworks (como React). Se valorará la búsqueda de soluciones alternativas en caso de no encontrar una forma directa de resolver algún problema.
+## 📐 Figma
 
-Criterios de Evaluación
-Exactitud Visual: La página debe ser visualmente precisa al diseño proporcionado en Figma.
+Puedes acceder al diseño en Figma [**aquí**](https://www.figma.com/file/eum4tt4VpUKWIwhCoRKP3Y/Prueba-front?node-id=0%3A1&t=JPB3oUoMrkydjFV6-1).
 
-Nomenclatura y Estructura del Código: Uso adecuado de etiquetas, comentarios, y orden en el código.
+> **Nota:** Para trabajar en modo desarrollo, asegúrate de estar logueado y duplicar el archivo a tus drafts.
 
-Funcionamiento Responsive: Adaptación y correcto funcionamiento en Desktop, Mobile y sus correspondientes breakpoints.
+---
 
-Animaciones: Implementación de animaciones en elementos como entradas, aperturas, hovers, etc.
+## 🎯 Objetivo
 
-Contenido Dinámico: Adaptación de la página en caso de variaciones en textos o imágenes.
+Replicar la página en Figma con la mayor exactitud visual posible, tanto en la versión **Desktop** como **Mobile**, sin el uso de librerías CSS (como Bootstrap) o frameworks (como React). Se valorará la búsqueda de soluciones alternativas en caso de no encontrar una forma directa de resolver algún problema.
 
-Módulos Implementados
-Navegación (Obligatorio)
-Descripción: La navegación es fixed y tiene dos opciones:
-Opción 1: Navegación desplegada que se convierte en menú hamburguesa al hacer scroll.
+---
 
-Opción 2: Menú hamburguesa desde el inicio.
+## 📊 Criterios de Evaluación
 
-Módulo Marquesinas (Opcional)
-Descripción: Tres marquesinas con movimiento alternado de izquierda a derecha y viceversa, con movimientos infinitos.
+- **Exactitud Visual:** La página debe ser visualmente precisa al diseño proporcionado en Figma.
+- **Nomenclatura y Estructura del Código:** Uso adecuado de etiquetas, comentarios, y orden en el código.
+- **Funcionamiento Responsive:** Adaptación y correcto funcionamiento en **Desktop**, **Mobile** y sus correspondientes **breakpoints**.
+- **Animaciones:** Implementación de animaciones en elementos como entradas, aperturas, hovers, etc.
+- **Contenido Dinámico:** Adaptación de la página en caso de variaciones en textos o imágenes.
 
-Módulo Texto Full Width (Obligatorio)
-Descripción: Texto a ancho completo, adaptándose a las diferentes resoluciones.
+---
 
-Módulo Textos + Imagen (Opcional)
-Descripción: Módulo dividido en texto e imagen, contemplando el crecimiento del texto y la adaptación de la imagen.
+## 🧩 Módulos Implementados
 
-Módulo Imagen + Slider (Obligatorio)
-Descripción: Imagen adaptativa junto con un slider de textos.
+### 📌 Navegación (Obligatorio)
 
-Módulo Repositorio (Obligatorio)
-Descripción: Listado de links con hover que muestra una imagen con animación.
+- **Descripción:** La navegación es **fixed** y tiene dos opciones:
+  - **Opción 1:** Navegación desplegada que se convierte en menú hamburguesa al hacer scroll.
+  - **Opción 2:** Menú hamburguesa desde el inicio.
 
-Módulo Novedades (Obligatorio)
-Descripción: Listado de novedades con hover que muestra la imagen en una animación.
+### 🎞️ Módulo Marquesinas (Opcional)
 
-Módulo Footer (Obligatorio)
-Descripción: Footer con información de contacto y navegación adicional.
+- **Descripción:** Tres marquesinas con movimiento alternado de izquierda a derecha y viceversa, con movimientos infinitos.
 
-Cómo Probar el Proyecto
-Clona este repositorio en tu máquina local.
+### 📝 Módulo Texto Full Width (Obligatorio)
 
-Abre el archivo index.html en tu navegador preferido.
+- **Descripción:** Texto a ancho completo, adaptándose a las diferentes resoluciones.
 
-Para revisar la versión mobile, utiliza las herramientas de desarrollo de tu navegador para simular diferentes dispositivos.
+### 🖼️ Módulo Textos + Imagen (Opcional)
 
-Entrega
-Este proyecto se ha entregado mediante GitHub como parte del proceso de selección para el puesto de UI Developer en Boron Studio. Para cualquier duda o comentario, puedes contactarme a través de mi correo electrónico.]
+- **Descripción:** Módulo dividido en texto e imagen, contemplando el crecimiento del texto y la adaptación de la imagen.
 
-EMAIL: nicolasg99dr@gmail.com
-LINKEDIN: https://www.linkedin.com/in/nicog33dev/ 
+### 🎛️ Módulo Imagen + Slider (Obligatorio)
+
+- **Descripción:** Imagen adaptativa junto con un slider de textos.
+
+### 📂 Módulo Repositorio (Obligatorio)
+
+- **Descripción:** Listado de links con hover que muestra una imagen con animación.
+
+### 📰 Módulo Novedades (Obligatorio)
+
+- **Descripción:** Listado de novedades con hover que muestra la imagen en una animación.
+
+### 📥 Módulo Footer (Obligatorio)
+
+- **Descripción:** Footer con información de contacto y navegación adicional.
+
+---
+
+## 🛠️ Cómo Probar el Proyecto
+
+1. Clona este repositorio en tu máquina local.
+2. Abre el archivo `index.html` en tu navegador preferido.
+3. Para revisar la versión mobile, utiliza las herramientas de desarrollo de tu navegador para simular diferentes dispositivos.
+
+---
+
+## 📬 Entrega
+
+Este proyecto se ha entregado mediante GitHub como parte del proceso de selección para el puesto de UI Developer en Boron Studio. Para cualquier duda o comentario, puedes contactarme a través de:
+
+- **Email:** [nicolasg99dr@gmail.com](mailto:nicolasg99dr@gmail.com)
+- **LinkedIn:** [linkedin.com/in/nicog33dev/](https://www.linkedin.com/in/nicog33dev/)
