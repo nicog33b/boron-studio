@@ -1,0 +1,23 @@
+
+    <section class="image-grid" >
+        <div class="grid-item left">
+            <img src="assets/images/banner/lefttop.png" alt="Diseño">
+            <p>Diseño</p>
+        </div>
+        <div class="grid-item left">
+            <img src="assets/images/banner/righttop.png" alt="Innovación">
+            <p>Innovación</p>
+        </div>
+        <div class="grid-item center">
+            <img src="assets/images/banner/center.png" alt="Center">
+            <p>Center</p>
+        </div>
+        <div class="grid-item right">
+            <img src="assets/images/banner/leftdown.png" alt="Tecnología">
+            <p>Tecnología</p>
+        </div>
+        <div class="grid-item right">
+            <img src="assets/images/banner/rightdown.png" alt="Uruguay">
+            <p>Uruguay</p>
+        </div>
+    </section>

@@ -1,0 +1,30 @@
+/* Repositorio Section */
+.repositorio-section {
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .repositorio-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .repositorio-options {
+    display: flex;
+    flex-direction: column;
+    width :100%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    gap: 15px;
+  }
+  
+  .repositorio-options .option {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border: 2px solid #000;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  

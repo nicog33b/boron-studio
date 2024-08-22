@@ -1,0 +1,239 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+/* Esconder la lupa en el navbar inicial */
+.search-icon {
+  display: none;
+}
+
+.hamburger {
+  background-color: black;
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  margin-left: auto; /* Mueve el ícono de hamburguesa a la derecha */
+}
+
+
+
+.hamburger i {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 6px;
+  background-color: black;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+/* Fullscreen menu styles */
+.fullscreen-menu {
+  border-radius: 0.1rem;
+  font-size: 2rem;
+  font-weight: 900;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: none;
+  flex-direction: column;
+  padding: 5px;
+  z-index: 1001;
+  overflow-y: auto;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(-100%);
+  opacity: 10;
+}
+
+.fullscreen-menu.show {
+  display: flex;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Estilos dentro del menú fullscreen */
+.fullscreen-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 40px;
+}
+
+.fullscreen-menu ul li {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.fullscreen-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size:1rem;
+  transition: color 0.3s ease;
+}
+
+.fullscreen-menu ul li a:hover {
+  color: #00FFFF;
+}
+
+.fullscreen-menu .close-btn {
+  text-align: right;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.fullscreen-menu .newsletter {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.fullscreen-menu .newsletter a {
+  padding-left: 1.3rem;
+  padding-right: 1.3rem;
+  padding-left: 0.9rem;
+  padding-right: 0.9rem;
+  background-color: #00FFFF;
+  border-radius: 2;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.fullscreen-menu .social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.fullscreen-menu .social-icons i {
+  font-size: 24px;
+}
+
+/* Media Query para transformar el navbar en hamburguesa a cierto ancho */
+@media (max-width: 800px) {
+  .nav-links, .search-icon {
+      display: none;
+  }
+
+  .hamburger {
+      display: flex;
+  }
+
+  .navbar {
+      padding: 10px 20px;
+  }
+}
+
+/* Scrolled Navbar styles */
+.navbar.scrolled {
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.navbar.scrolled .logo img {
+  height: 22px;
+}
+
+.navbar.scrolled .nav-links, 
+.navbar.scrolled .search-icon {
+  display: none;
+}
+
+.navbar.scrolled .hamburger {
+  display: flex;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .hamburger {
+      display: flex;
+  }
+
+  .fullscreen-menu {
+      padding-top: 20px;
+  }
+
+  .navbar.active .fullscreen-menu {
+      display: flex;
+  }
+
+  .fullscreen-menu {
+    left:0;
+    right:none;
+    width: 100%;
+  }
+}
+
+
+
+/* Scrolled Navbar styles */
+.navbar.scrolled {
+  background-color: transparent;
+  justify-content: space-between;
+  padding: 5px 20px; /* Ajusta el padding al hacer scroll */
+}
+
+.navbar.scrolled .logo img {
+  height: 30px;
+}
+
+.navbar.scrolled .nav-links {
+  display: none; /* Esconde los links al hacer scroll */
+}
+
+.navbar.scrolled .search-icon {
+  display: none; /* Esconde la lupa al hacer scroll */
+}
+
+.navbar.scrolled .hamburger {
+  display: flex; /* Muestra la hamburguesa al hacer scroll */
+}

@@ -1,0 +1,25 @@
+.intro-section {
+    height:600 px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    background-color: #FF5733; /* Color de fondo similar al de la imagen */
+    color: #000; /* Color del texto */
+}
+
+.intro-text {
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 3.33rem; /* Tamaño de texto base */
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .intro-text {
+        font-size: 16px; /* Tamaño de texto para pantallas más pequeñas */
+        text-align: left; /* Alineación del texto a la izquierda en móvil */
+        padding: 10px;
+    }
+}

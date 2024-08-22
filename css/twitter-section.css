@@ -1,0 +1,86 @@
+.twitter-section {
+    margin: 0;
+  padding: 0.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.twitter-container {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.twitter-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.twitter-right {
+  flex: 1;
+  background-color: #1da1f2;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.twitter-card {
+  padding: 1rem;
+  background-color: #1a91da;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.twitter-handle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.twitter-username {
+  color: #cce7ff;
+  margin-bottom: 1rem;
+}
+
+.twitter-tweet {
+  margin-bottom: 1.5rem;
+}
+
+.twitter-tweet a {
+  color: #ffdd57;
+  text-decoration: none;
+}
+
+.twitter-tweet a:hover {
+  text-decoration: underline;
+}
+
+.twitter-time {
+  color: #cce7ff;
+  font-size: 0.875rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .twitter-container {
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .twitter-left img {
+    width: 100%;
+    height: 400px; 
+    object-fit: fill;
+  }
+
+  .twitter-right {
+    width: 100%;
+    height: 400px;
+  }
+}
